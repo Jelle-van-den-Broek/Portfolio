@@ -1,0 +1,20 @@
+/* CSS HEX */
+:root{
+    --light-sea-green: #00b9aeff;
+    --caribbean-current: #037171ff;
+    --dark-green: #03312eff;
+    --dark-green-navbar: rgba(3, 49, 46, 0.52);
+    --robin-egg-blue: #02c3bdff;
+    --persian-green: #009f93ff;
+}
+
+#About {
+    width: 100%;
+    height: 100vh;
+}
+
+#About #Container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--light-sea-green);
+}
