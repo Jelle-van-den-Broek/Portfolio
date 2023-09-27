@@ -1,4 +1,5 @@
 /* CSS HEX */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
 :root{
     --light-sea-green: #00b9aeff;
     --caribbean-current: #037171ff;
@@ -14,6 +15,7 @@
     height: 100vh;
     z-index: 19; /* Set a lower z-index */
     margin-top: -100px; /* Negative margin equal to the height of the Nav-Bar */
+    font-family: poppins;
 }
 #Header #Container {
     width: 100%;
@@ -92,6 +94,17 @@
     opacity: 1;
     transition: opacity 0.1s ease;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Header #Container #SubText {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

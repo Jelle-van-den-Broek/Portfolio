@@ -1,7 +1,9 @@
 /* CSS HEX */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
 :root{
     --light-sea-green: #00b9aeff;
     --caribbean-current: #037171ff;
+    --caribbean-current-navbar: rgba(3, 113, 113, 0.51);
     --dark-green: #03312eff;
     --dark-green-navbar: rgba(3, 49, 46, 0.52);
     --robin-egg-blue: #02c3bdff;
@@ -9,7 +11,7 @@
 }
 
 #Nav-Bar {
-    font-family: sans-serif;
+    font-family: poppins;
     position: sticky;
     top: 0;
     width: 100%;
@@ -38,7 +40,7 @@
 
 #Nav-Bar #Container #Name-Buttons #Buttons\ Left {
     display: flex;
-    background-color: var(--caribbean-current);
+    background-color: var(--caribbean-current-navbar);
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -46,7 +48,7 @@
 
 #Nav-Bar #Container #Name-Buttons #Buttons\ Right {
     display: flex;
-    background-color: var(--caribbean-current);
+    background-color: var(--caribbean-current-navbar);
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
