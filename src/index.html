@@ -4,17 +4,40 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/Cookies.css">
+    <link rel="stylesheet" href="css/Projects.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css/Nav-Bar.css">
     <link rel="stylesheet" href="css/Header.css">
     <link rel="stylesheet" href="css/About.css">
+
+    <script src="/src/scripts/Cookies.js" defer></script>
     <script src="/src/scripts/nav-bar-scroll-animation.js"></script>
     <script src="/src/scripts/Scroll-To-Div.js"></script>
     <script src="/src/scripts/Scroll-Text-Opacity.js"></script>
     <script src="/src/scripts/Slide-Text-Into-View.js"></script>
     <script src="/src/scripts/Scroll-To-Top-When-Reload.js"></script>
+    <script src="/src/scripts/Import-Json-Projects.js"></script>
 </head>
 <body>
+<section class="Cookies">
+    <div id="wrapper">
+        <header>
+            <i class="bx bx-cookie"></i>
+            <h2>Cookies Consent</h2>
+        </header>
+
+            <div id="data">
+                <p>Cookies help us deliver the best experience on our website. By using our website, you agree to the use of cookies. <a href="#"> Find out how we use cookies.</a></p>
+            </div>
+            <div id="buttons">
+                <button id="button" class="acceptBtn">Accept</button>
+                <button id="button">Decline</button>
+            </div>
+    </div>
+</section>
 <section id="Nav-Bar">
     <div id="Container">
         <div id="Name-Buttons">
@@ -71,6 +94,12 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<section id="Projects">
+    <div id="Container">
+        <div id="cardsContainer">
         </div>
     </div>
 </section>

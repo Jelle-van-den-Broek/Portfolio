@@ -38,12 +38,11 @@ q:before, q:after {
 
 /* CSS HEX */
 :root{
-  --light-sea-green: #00b9aeff;
-  --caribbean-current: #037171ff;
-  --dark-green: #03312eff;
-  --dark-green-navbar: rgba(3, 49, 46, 0.52);
-  --robin-egg-blue: #02c3bdff;
-  --persian-green: #009f93ff;
+  --lavender-web: #d9dbf1ff;
+  --french-gray: #d0cdd7ff;
+  --french-gray-2: #acb0bdff;
+  --dark-slate-gray: #416165ff;
+  --midnight-green: #0b3948ff;
 }
 
 

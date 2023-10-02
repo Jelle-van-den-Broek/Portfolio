@@ -1,13 +1,13 @@
 /* CSS HEX */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
 :root{
-    --light-sea-green: #00b9aeff;
-    --caribbean-current: #037171ff;
-    --caribbean-current-navbar: rgba(3, 113, 113, 0.51);
-    --dark-green: #03312eff;
-    --dark-green-navbar: rgba(3, 49, 46, 0.52);
-    --robin-egg-blue: #02c3bdff;
-    --persian-green: #009f93ff;
+    --lavender-web: #d9dbf1ff;
+    --french-gray: #d0cdd7ff;
+    --french-gray-2: #acb0bdff;
+    --dark-slate-gray: #416165ff;
+    --dark-slate-gray-nav: rgba(65, 97, 101, 0.51);
+    --midnight-green: #0b3948ff;
+    --midnight-green-nav: rgba(11, 57, 72, 0.5);
 }
 
 #Nav-Bar {
@@ -24,7 +24,7 @@
     width: 60%;
     height: 100%;
     margin: 0 auto;
-    background-color: var(--dark-green-navbar);
+    background-color: var(--dark-slate-gray-nav);
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.5s;
@@ -40,7 +40,7 @@
 
 #Nav-Bar #Container #Name-Buttons #Buttons\ Left {
     display: flex;
-    background-color: var(--caribbean-current-navbar);
+    background-color: var(--midnight-green-nav);
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -48,7 +48,7 @@
 
 #Nav-Bar #Container #Name-Buttons #Buttons\ Right {
     display: flex;
-    background-color: var(--caribbean-current-navbar);
+    background-color: var(--midnight-green-nav);
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

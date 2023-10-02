@@ -1,0 +1,92 @@
+/* CSS HEX */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+:root{
+    --lavender-web: #d9dbf1ff;
+    --french-gray: #d0cdd7ff;
+    --french-gray-2: #acb0bdff;
+    --dark-slate-gray: #416165ff;
+    --midnight-green: #0b3948ff;
+}
+
+.Cookies {
+    font-family: poppins;
+    position: fixed;
+    bottom: 50px;
+    right: -370px;
+    max-width: 345px;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease;
+}
+
+.Cookies.show {
+    right: 20px;
+}
+
+.Cookies #wrapper {
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    padding: 15px 25px 22px;
+}
+
+.Cookies #wrapper header {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.Cookies #wrapper header i {
+    color: black;
+    font-size: 32px;
+}
+
+.Cookies #wrapper header h2 {
+    color: black;
+    font-weight: 500;
+    font-size: 140%;
+}
+
+.Cookies #wrapper #data{
+    margin-top: 16px;
+}
+
+.Cookies #wrapper #data p {
+    color: #333;
+    font-size: 16px;
+}
+
+.Cookies #wrapper #data p a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Cookies #wrapper #data p a:hover {
+    text-decoration: underline;
+}
+
+.Cookies #wrapper #buttons {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Cookies #wrapper #buttons #button {
+    border: none;
+    color: white;
+    width: calc(100% / 2 - 10px);
+    padding: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    background: rgba(3, 113, 113, 0.51);
+    transition: all 0.2s ease;
+}
+
+.Cookies #wrapper #buttons #button:hover {
+    background: rgba(2, 66, 66, 0.51);
+}
+
