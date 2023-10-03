@@ -72,7 +72,7 @@ margin-bottom: 10px;
 
 #About #Container #Text-Container #text #about #img {
     position: absolute;
-    background-image: url(../assets/undraw_businessman_e7v0.svg);
+    background-image: url(assets/undraw_businessman_e7v0.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 200px;
