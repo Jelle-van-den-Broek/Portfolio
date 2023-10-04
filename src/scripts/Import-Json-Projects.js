@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to load JSON data
     function loadJSON() {
-        fetch('/src/json/Projects.json')
+        fetch('../src/json/Projects.json')
             .then(response => response.json())
             .then(jsonData => {
                 // Loop through the JSON data and create HTML elements for each item
