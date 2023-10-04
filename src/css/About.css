@@ -101,7 +101,7 @@ margin-bottom: 10px;
 
 #About #Container #Text-Container #text #journey #img {
     position: absolute;
-    background-image: url(/src/assets/undraw_adventure_re_ncqp.svg);
+    background-image: url(../assets/undraw_adventure_re_ncqp.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 300px;
@@ -129,7 +129,7 @@ margin-bottom: 10px;
 
 #About #Container #Text-Container #text #why #img {
     position: absolute;
-    background-image: url(/src/assets/undraw_code_typing_re_p8b9.svg);
+    background-image: url(../assets/undraw_code_typing_re_p8b9.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 500px;
