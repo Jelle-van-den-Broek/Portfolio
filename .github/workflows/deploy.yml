@@ -1,0 +1,20 @@
+name: Deploy to Mijndomein
+
+on:
+  push:
+    branches:
+      - main # Pas dit aan naar de naam van je hoofdtak
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Deploy to Mijndomein
+      run: |
+        cp -R * /path/to/your/mijndomein/directory
+      env:
+        MY_DOMAIN_PASSWORD: ${{ secrets.MY_DOMAIN_PASSWORD }} # Voeg je Mijndomein wachtwoord toe als een geheim in je GitHub-repository.
