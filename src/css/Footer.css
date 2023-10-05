@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+:root{
+    --black: #000000ff;
+    --oxford-blue: #14213dff;
+    --orange-web: #fca311ff;
+    --platinum: #e5e5e5ff;
+    --white: #ffffffff;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333;  /* old IE */
+    background-color: #333;  /* Modern Browsers */
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+#Footer {
+    width: 100%;
+    background: var(--black);
+    font-family: poppins;
+}
+
+#Footer #Contact {
+    width: 100%;
+    padding-top: 3.3vmax;
+    padding-bottom: 3.3vmax;
+    justify-content: center;
+}
+
+#Footer #Contact #Content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Add this line */
+    align-items: center; /* Center vertically */
+}
+
+#Footer #Contact #Content #Email {
+    /* Remove height: 100%; */
+    width: 200px;
+}
+#Footer #Contact #Content #Email a{
+    color: var(--orange-web);
+}
+
+#Footer #Contact #Content #Name {
+    color: white;
+    flex: 1; /* Allow it to take up remaining space */
+    text-align: center; /* Center text horizontally */
+    width: 200px;
+    font-size: 140%;
+}
+
+#Footer #Contact #Content #Socials {
+    color: white;
+    width: 200px;
+    font-size: 120%;
+}
+
+#Footer #Contact #Content #Socials ul {
+    display: flex;
+}
