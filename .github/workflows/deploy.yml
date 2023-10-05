@@ -3,7 +3,7 @@ name: Deploy to Mijndomein
 on:
   push:
     branches:
-      - main # Pas dit aan naar de naam van je hoofdtak
+      - main # Change this to the name of your main branch
 
 jobs:
   deploy:
@@ -15,6 +15,6 @@ jobs:
 
       - name: Deploy to Mijndomein
         run: |
-          cp -R * /
+          cp -R * /httpdocs
         env:
-          MY_DOMAIN_PASSWORD: ${{ secrets.MY_DOMAIN_PASSWORD }} # Voeg je Mijndomein wachtwoord toe als een geheim in je GitHub-repository.
+          MY_DOMAIN_PASSWORD: ${{ secrets.MY_DOMAIN_PASSWORD }} # Add your Mijndomein password as a secret in your GitHub repository.
