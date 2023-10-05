@@ -1,7 +1,7 @@
 [
   {
     "title": "test",
-    "thumb": "/src/assets/Header-BG.jpg",
+    "thumb": "../assets/Header-BG.jpg",
     "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
     "year": "2020",
     "github": "google.com"
