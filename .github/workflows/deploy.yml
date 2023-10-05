@@ -10,11 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Deploy to Mijndomein
-      run: |
-        cp -R * /f_0001d0db
-      env:
-        MY_DOMAIN_PASSWORD: ${{ secrets.MY_DOMAIN_PASSWORD }} # Voeg je Mijndomein wachtwoord toe als een geheim in je GitHub-repository.
+      - name: Deploy to Mijndomein
+        run: |
+          cp -R * /
+        env:
+          MY_DOMAIN_PASSWORD: ${{ secrets.MY_DOMAIN_PASSWORD }} # Voeg je Mijndomein wachtwoord toe als een geheim in je GitHub-repository.
