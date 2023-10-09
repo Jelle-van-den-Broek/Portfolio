@@ -1,56 +1,56 @@
 [
   {
     "title": "test.1",
-    "thumb": "/src/assets/Header-BG.jpg",
+    "thumb": "../src/assets/Header-BG.jpg",
     "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
     "year": "2020",
     "github": "google.com"
   },
   {
     "title": "test1.1",
-    "thumb": "/src/assets/Header-BG.jpg",
+    "thumb": "../src/assets/Header-BG.jpg",
     "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
     "year": "2021",
     "github": "google.com"
   },
   {
     "title": "test2.1",
-    "thumb": "/src/assets/Header-BG.jpg",
+    "thumb": "../src/assets/Header-BG.jpg",
     "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
     "year": "2022",
     "github": "google.com"
   },
   {
     "title": "test3.1",
-    "thumb": "/src/assets/Header-BG.jpg",
+    "thumb": "../src/assets/Header-BG.jpg",
     "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
     "year": "2023",
     "github": "google.com"
   },
   {
     "title": "test4.1",
-    "thumb": "/src/assets/Header-BG.jpg",
+    "thumb": "../src/assets/Header-BG.jpg",
     "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
     "year": "2024",
     "github": "google.com"
   },
   {
     "title": "test4.1",
-    "thumb": "/src/assets/Header-BG.jpg",
+    "thumb": "../src/assets/Header-BG.jpg",
     "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
     "year": "2024",
     "github": "google.com"
   },
   {
     "title": "test4.1",
-    "thumb": "/src/assets/Header-BG.jpg",
+    "thumb": "../src/assets/Header-BG.jpg",
     "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
     "year": "2024",
     "github": "google.com"
   },
   {
     "title": "test4.1",
-    "thumb": "/src/assets/Header-BG.jpg",
+    "thumb": "../src/assets/Header-BG.jpg",
     "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
     "year": "2024",
     "github": "google.com"
