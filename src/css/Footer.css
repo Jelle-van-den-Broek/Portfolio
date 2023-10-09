@@ -62,4 +62,24 @@ hr {
 
 #Footer #Contact #Content #Socials ul {
     display: flex;
+    float: right;
+}
+
+#Footer #Contact #Content #Socials ul li {
+    margin-left: 5px;
+}
+
+#Footer #Copyright {
+    width: 100%;
+    padding-top: 3.3vmax;
+    padding-bottom: 3.3vmax;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+}
+
+#Footer #Copyright #Text {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
 }
