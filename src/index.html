@@ -46,12 +46,12 @@
         <div id="Name-Buttons">
             <ul id="Buttons Left">
                 <li id="Button" onclick="scrollToAbout()">About</li>
-                <li id="Button">Projects</li>
+                <li id="Button" onclick="scrollToProjects()">Projects</li>
             </ul>
             <div id="Name" onclick="scrollToHeader()">&lt; / &gt; Jelle van den Broek</div>
             <ul id="Buttons Right">
-                <li id="Button">Working on</li>
-                <li id="Button">Contact</li>
+                <li id="Button" onclick="scrollToWorking()">Working on</li>
+                <li id="Button" onclick="scrollToContact()">Contact</li>
             </ul>
         </div>
     </div>
@@ -133,8 +133,13 @@
     <hr>
     <div id="Copyright">
         <div id="Text">
-            &copy; Jelle van den Broek. All rights reserved.
+            &copy; <span id="curYr"></span> Jelle van den Broek. All rights reserved.
         </div>
+        <script>
+            var date = new Date();
+            var year = date.getFullYear();
+            document.getElementById('curYr').innerHTML = year;
+        </script>
     </div>
 </footer>
 </body>

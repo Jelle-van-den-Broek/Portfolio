@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const slideInDivWhyText = document.querySelector('#About #Container #Text-Container #text #why #text');
     const slideInDivWhyImg = document.querySelector('#About #Container #Text-Container #text #why #img');
 
-    let hasAnimatedAbout = false; // Flag to track if animation has occurred
-    let hasAnimatedJourney = false; // Flag to track if animation has occurred
-    let hasAnimatedWhy = false; // Flag to track if animation has occurred
+    let hasAnimatedAbout = false;
+    let hasAnimatedJourney = false;
+    let hasAnimatedWhy = false;
 
     function isInViewport(element) {
         const rect = element.getBoundingClientRect();
@@ -29,21 +29,19 @@ document.addEventListener('DOMContentLoaded', function () {
         if (isInViewport(viewDivAbout) && !hasAnimatedAbout) {
             slideInDivAboutText.style.left = '0%';
             slideInDivAboutImg.style.right = '0%';
-            hasAnimatedAbout = true; // Set the flag to true once animation occurs
-        }else if (isInViewport(viewDivWhy) && !hasAnimatedWhy) {
+            hasAnimatedAbout = true;
+        } else if (isInViewport(viewDivWhy) && !hasAnimatedWhy) {
             slideInDivWhyText.style.left = '0%';
             slideInDivWhyImg.style.right = '0%';
-            hasAnimatedWhy = true; // Set the flag to true once animation occurs
-        }else if (isInViewport(viewDivJourney) && !hasAnimatedJourney) {
+            hasAnimatedWhy = true;
+        } else if (isInViewport(viewDivJourney) && !hasAnimatedJourney) {
             slideInDivJourneyText.style.right = '0%';
             slideInDivJourneyImg.style.left = '0%';
-            hasAnimatedJourney = true; // Set the flag to true once animation occurs
+            hasAnimatedJourney = true;
         }
     }
 
-    // Listen for scroll events
     window.addEventListener('scroll', handleScroll);
 
-    // Trigger the animation on page load (if the element is initially in view)
     handleScroll();
 });
