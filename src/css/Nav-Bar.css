@@ -1,15 +1,15 @@
 /* CSS HEX */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
 :root{
-    --black: #000000ff;
+    --black: rgb(15 23 42);
     --oxford-blue: #14213dff;
     --oxford-blue-nav: rgba(20, 33, 61, 0.6);
     --oxford-blue-nav-2: rgba(36, 53, 94, 0.6);
-    --orange-web: #fca311ff;
+    --orange-web: rgb(94 234 212);
     --platinum: #e5e5e5ff;
     --white: #ffffffff;
-    --nav-bar: rgba(225, 168, 122, 0.71);
-    --nav-bar-2: rgba(229, 177, 138, 0.71);
+    --nav-bar: rgba(19, 78, 74, 0.71);
+    --nav-bar-2: rgba(19, 78, 74,  0.71);
 }
 
 #Nav-Bar {
@@ -57,13 +57,13 @@
 }
 #Nav-Bar #Container #Name-Buttons #Buttons\ Right #Button{
     padding: 15px 20px 15px 20px;
-    color: white;
+    color: var(--orange-web);
     cursor: pointer;
 }
 
 #Nav-Bar #Container #Name-Buttons #Buttons\ Left #Button{
     padding: 15px 20px 15px 20px;
-    color: white;
+    color: var(--orange-web);
     cursor: pointer;
 }
 

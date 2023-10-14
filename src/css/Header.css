@@ -1,9 +1,9 @@
 /* CSS HEX */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
 :root{
-    --black: #000000ff;
+    --black: rgb(15 23 42);
     --oxford-blue: #14213dff;
-    --orange-web: #fca311ff;
+    --orange-web: rgb(94 234 212);
     --platinum: #e5e5e5ff;
     --white: #ffffffff;
     --title: rgb(225, 168, 122);
@@ -46,7 +46,7 @@
     height: 100px;
     background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
     background-size: 1000px 100px;
-    filter: brightness(0) saturate(100%)
+    filter: brightness(0) saturate(100%) invert(8%) sepia(8%) saturate(4321%) hue-rotate(184deg) brightness(97%) contrast(98%);
 }
 #Wave-Bg .air.air1{
     animation: wave 30s linear infinite;
