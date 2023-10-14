@@ -1,0 +1,6 @@
+<Files "process_form.php">
+    <Limit POST>
+        Order allow,deny
+        Allow from all
+    </Limit>
+</Files>

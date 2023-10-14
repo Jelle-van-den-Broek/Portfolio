@@ -9,7 +9,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $headers = "From: webmaster@example.com";
 
     if (mail($to, $subject, $message, $headers)) {
-        echo json_encode(array("success" => true));
+header("Content-Type: application/json");
+echo json_encode(array("success" => true));
     } else {
         echo json_encode(array("success" => false));
     }
