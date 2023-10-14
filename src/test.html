@@ -5,17 +5,38 @@
     <title>Title</title>
 </head>
 <body>
-<form id="contact-form" action="test.php" method="post">
+<form id="contact-form">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
+
+    <!-- Add more fields as needed -->
+
     <button type="submit">Submit</button>
 </form>
-<script>
-    document.getElementById("contact-form").addEventListener("submit", function (e) {
-        e.preventDefault();
-        const name = document.getElementById("name").value;
 
-        // Send the data to your server or email using an AJAX request or another method.
+<div id="success-message" style="display: none;">Thank you for your submission!</div>
+<div id="error-message" style="display: none;">An error occurred. Please try again later.</div>
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Get form data
+        const formData = new FormData(this);
+
+        // Send form data to a server-side script for processing
+        fetch('process_form.php', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    document.getElementById('contact-form').style.display = 'none';
+                    document.getElementById('success-message').style.display = 'block';
+                } else {
+                    document.getElementById('error-message').style.display = 'block';
+                }
+            });
     });
 </script>
 </body>
