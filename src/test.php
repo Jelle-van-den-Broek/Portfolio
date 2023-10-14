@@ -6,3 +6,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message = "Name: $name";
   mail($to, $subject, $message);
 }
+
+echo "PHP is working.";
