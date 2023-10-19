@@ -22,8 +22,8 @@
     }
 
     #Nav-Bar #Container {
-        width: 50%;
-        min-width: 50%;
+        width: 100%;
+        min-width: 100%;
     }
 
     #Nav-Bar #Container #Name-Buttons {
