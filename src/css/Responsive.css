@@ -1,37 +1,36 @@
-.not-responsive-message {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    font-size: 24px;
-    text-align: center;
-    padding-top: 20%;
-}
+
 
 @media (max-width: 1316px) {
-    .not-responsive-message {
-        display: block;
-    }
-    #Projects {
+    #Nav-Bar #Container #Name-Buttons #Name {
         display: none;
     }
-    #Nav-Bar{
-        display: none;
+
+    #Nav-Bar #Container #Name-Buttons {
+        justify-content: center;
     }
-    #WorkingOn {
-        display: none;
+
+    #Nav-Bar #Container #Name-Buttons #Buttons\ Left {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        box-shadow: none;
     }
-    #About {
-        display: none;
+
+    #Nav-Bar #Container #Name-Buttons #Buttons\ Right {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        box-shadow: none;
     }
-    #Footer {
-        display: none;
+
+    #Nav-Bar #Container {
+        width: 38%;
+        min-width: 38%;
     }
-    #Header {
-        display: none;
+
+    #Nav-Bar #Container #Name-Buttons {
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
+
 }
