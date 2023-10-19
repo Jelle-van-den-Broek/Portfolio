@@ -13,11 +13,15 @@ document.addEventListener('DOMContentLoaded', function () {
                     // Create a new card element
                     var card = document.createElement("div");
                     card.id = "Card"; // You may want to add a CSS class for styling
+                    card.setAttribute("data-tilt", ""); // Add the data-tilt attribute
+                    card.setAttribute("data-tilt-max", "25"); // Add the data-tilt attribute
+                    card.setAttribute("data-tilt-glare", "0.1"); // Add the data-tilt-glare attribute
+                    card.setAttribute("data-tilt-speed", "4000"); // Add the data-tilt-glare attribute
 
                     // Create an image element for the "thumb" part
-                    var thumb = document.createElement("div");
+                    var thumb = document.createElement("img");
                     thumb.id = "thumb"; // Apply the CSS class for the thumb
-                    thumb.style.backgroundImage = 'url("' + item.thumb + '")'; // Set the background image
+                    thumb.srcset = item.thumb; // Set the image source
 
                     var title = document.createElement("div");
                     title.id = "title";
@@ -34,14 +38,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     var github = document.createElement("div");
                     github.id = "github";
 
-                    // Create an anchor element with target="_blank" for the GitHub link
-                    var githubLink = document.createElement("a");
-                    githubLink.href = item.github;
-                    githubLink.textContent = "GitHub";
-                    githubLink.target = "_blank";
-
-                    // Append the GitHub link to the GitHub div
-                    github.appendChild(githubLink);
+                    if (item.github === "none") {
+                        // If 'github' is "none", create a plain text element
+                        var githubText = document.createElement("span");
+                        githubText.textContent = "None";
+                        github.appendChild(githubText);
+                    } else {
+                        // Otherwise, create an anchor element with target="_blank" for the GitHub link
+                        var githubLink = document.createElement("a");
+                        githubLink.href = item.github;
+                        githubLink.textContent = "GitHub";
+                        githubLink.target = "_blank";
+                        github.appendChild(githubLink);
+                    }
 
                     // Append the elements to the card
                     card.appendChild(thumb);
@@ -52,6 +61,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     // Append the card to the container
                     cardsContainer.appendChild(card);
+                });
+                VanillaTilt.init(document.querySelectorAll("#Projects #Container #cardsContainer #Card"), {
+                    // Your Tilt Settings
                 });
             })
             .catch(error => console.error('Error loading JSON:', error));

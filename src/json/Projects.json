@@ -1,58 +1,44 @@
 [
   {
-    "title": "test",
-    "thumb": "../src/assets/Header-BG.jpg",
-    "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
+    "title": "First Website",
+    "thumb": "../src/assets/First.png",
+    "description": "This is the very first website I had to create for school.",
     "year": "2020",
-    "github": "google.com"
+    "github": "https://jelle-van-den-broek.github.io/First-Website/index1.html"
   },
   {
-    "title": "test1",
-    "thumb": "../src/assets/Header-BG.jpg",
-    "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
-    "year": "2021",
-    "github": "google.com"
-  },
-  {
-    "title": "test2",
-    "thumb": "../src/assets/Header-BG.jpg",
-    "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
+    "title": "Tuinhier",
+    "thumb": "../src/assets/TuinHier.png",
+    "description": "For school we had to create a website with something special in it, so we added a map.",
     "year": "2022",
-    "github": "google.com"
+    "github": "https://jelle-van-den-broek.github.io/TuinHier/dashboard.html"
   },
   {
-    "title": "test3",
-    "thumb": "../src/assets/Header-BG.jpg",
-    "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
+    "title": "Old Portfolio",
+    "thumb": "../src/assets/Portfolio.png",
+    "description": "Last school year we had to create a portfolio website for an internship.",
+    "year": "2022",
+    "github": "https://jelle-van-den-broek.github.io/Old_Portfolio/"
+  },
+  {
+    "title": "Internship",
+    "thumb": "../src/assets/Gripp.png",
+    "description": "During my internship I had to work with PHP and API.",
+    "year": "2022-2023",
+    "github": "none"
+  },
+  {
+    "title": "Moon Scroll",
+    "thumb": "../src/assets/Moon.png",
+    "description": "At school we had to create a website with a nice function. we had 2 days for this.",
     "year": "2023",
-    "github": "google.com"
+    "github": "https://jelle-van-den-broek.github.io/Scroll-Moon/index.html"
   },
   {
-    "title": "test4",
-    "thumb": "../src/assets/Header-BG.jpg",
-    "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
-    "year": "2024",
-    "github": "google.com"
-  },
-  {
-    "title": "test4",
-    "thumb": "../src/assets/Header-BG.jpg",
-    "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
-    "year": "2024",
-    "github": "google.com"
-  },
-  {
-    "title": "test4",
-    "thumb": "../src/assets/Header-BG.jpg",
-    "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
-    "year": "2024",
-    "github": "google.com"
-  },
-  {
-    "title": "test4",
-    "thumb": "../src/assets/Header-BG.jpg",
-    "description": "Dit is een test text, er komt nog een echte beschrijving bij dus maak je maar geen zorgen!",
-    "year": "2024",
-    "github": "google.com"
+    "title": "Vue API",
+    "thumb": "../src/assets/Vue.png",
+    "description": "For a school project we had to fetch an API with vue.js. We opted for the steam sales API.",
+    "year": "2023",
+    "github": "none"
   }
 ]

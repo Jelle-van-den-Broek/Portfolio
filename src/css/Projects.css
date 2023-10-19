@@ -1,16 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
-:root{
-    --black: rgb(15 23 42);
-    --oxford-blue: #14213dff;
-    --orange-web: rgb(94 234 212);
-    --platinum: #e5e5e5ff;
-    --white: #ffffffff;
-}
-
 #Projects {
     width: 100%;
     height: 100vh;
     font-family: poppins;
+    display: block;
 }
 
 #Projects #Container {
@@ -41,22 +33,32 @@
 }
 
 #Projects #Container #cardsContainer #Card {
-    background-color: var(--french-gray-2);
+    border-radius: 8px;
     flex: 1;
     margin: 10px;
     padding: 10px;
     min-width: 200px;
     max-width: 200px;
+    min-height: 300px;
+    max-height: 300px;
     width: 200px;
-    border-radius: 8px;
+    color: white;
+    transition: all .5s;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 50%);
+}
+
+#Projects #Container #cardsContainer #Card:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 #Projects #Container #cardsContainer #Card #thumb {
     width: 100%;
-    height: 100px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: auto;
+    object-fit: cover;
 }
 
 #Projects #Container #cardsContainer #Card #title {
@@ -71,4 +73,8 @@
 }
 #Projects #Container #cardsContainer #Card #github {
     margin-top: 10px;
+}
+
+#Projects #Container #cardsContainer #Card #github a {
+    color: var(--orange-web);
 }

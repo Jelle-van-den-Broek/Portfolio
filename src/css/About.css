@@ -1,12 +1,4 @@
-/* CSS HEX */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
-:root{
-    --black: rgb(15 23 42);
-    --oxford-blue: #14213dff;
-    --orange-web: rgb(94 234 212);
-    --platinum: #e5e5e5ff;
-    --white: #ffffffff;
-}
+
 
 #About {
     width: 100%;
@@ -14,6 +6,7 @@
     font-family: poppins;
     z-index: 20;
     position: relative;
+    display: block;
 }
 
 #About #Container {

@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
-:root{
-    --black: rgb(15 23 42);
-    --oxford-blue: #14213dff;
-    --orange-web: rgb(94 234 212);
-    --platinum: #e5e5e5ff;
-    --white: #ffffffff;
-}
+
 
 hr {
     border: none;
@@ -21,6 +14,7 @@ hr {
     width: 100%;
     background: var(--black);
     font-family: poppins;
+    display: block;
 }
 
 #Footer #Contact {
@@ -45,13 +39,31 @@ hr {
 #Footer #Contact #Content #Email a{
     text-decoration: none;
     color: var(--orange-web);
-    border-bottom: var(--orange-web) solid 2px;
-    padding-left: 5px;
-    padding-right: 5px;
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+#Footer #Contact #Content #Email a:before {
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
 }
 
 #Footer #Contact #Content #Email a:hover{
-    border: var(--orange-web) solid 2px;
+    background-position: 0;
+}
+
+#Footer #Contact #Content #Email a:hover::before{
+    width: 100%;
 }
 
 #Footer #Contact #Content #Name {
@@ -65,7 +77,7 @@ hr {
 #Footer #Contact #Content #Socials {
     color: white;
     width: 200px;
-    font-size: 120%;
+    font-size: 130%;
 }
 
 #Footer #Contact #Content #Socials ul {
@@ -75,6 +87,21 @@ hr {
 
 #Footer #Contact #Content #Socials ul li {
     margin-left: 5px;
+    transition: all .5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#Footer #Contact #Content #Socials ul li a {
+    color: white;
+}
+
+#Footer #Contact #Content #Socials ul li:hover {
+    scale: 1.5;
+}
+
+#Footer #Contact #Content #Socials ul li:hover a {
+    color: var(--orange-web);
 }
 
 #Footer #Copyright {

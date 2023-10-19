@@ -1,13 +1,4 @@
-/* CSS HEX */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
-:root{
-    --black: rgb(15 23 42);
-    --oxford-blue: #14213dff;
-    --orange-web: rgb(94 234 212);
-    --platinum: #e5e5e5ff;
-    --white: #ffffffff;
-    --title: rgb(225, 168, 122);
-}
+
 
 #Header{
     position: relative; /* Add relative positioning */
@@ -16,6 +7,7 @@
     z-index: 19; /* Set a lower z-index */
     margin-top: -100px; /* Negative margin equal to the height of the Nav-Bar */
     font-family: poppins;
+    display: block;
 }
 #Header #Background {
     position: absolute;
@@ -23,8 +15,9 @@
     height: 100%;
     background: url(../assets/Header-BG.jpg);
     background-size: cover;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    background-position: center;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
 }
 
 #Header #Container {

@@ -1,4 +1,19 @@
 /* CSS Reset */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+:root{
+  --black: rgb(15 23 42);
+  --card: rgba(44, 50, 107, 0.42);
+  --oxford-blue: #14213dff;
+  --oxford-blue-nav: rgba(20, 33, 61, 0.6);
+  --oxford-blue-nav-2: rgba(36, 53, 94, 0.6);
+  --orange-web: rgb(94 234 212);
+  --platinum: rgba(68, 229, 206, 0.53);
+  --white: #ffffffff;
+  --nav-bar: rgba(19, 78, 74, 0.71);
+  --nav-bar-2: rgba(19, 78, 74,  0.71);
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -35,14 +50,8 @@ q:before, q:after {
   content: none;
 }
 
-/* CSS HEX */
-:root{
-  --lavender-web: #d9dbf1ff;
-  --french-gray: #d0cdd7ff;
-  --french-gray-2: #acb0bdff;
-  --dark-slate-gray: #416165ff;
-  --midnight-green: #0b3948ff;
-}
+
+
 
 
 
